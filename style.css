@@ -3,3 +3,23 @@ h1 {
     color:;
     text-align:center;
 }
+
+h3, h4 {
+     text-align: center;
+}
+body {
+    background-color:#4dffff;
+}
+div {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid blue;
+    margin: auto;
+}
+#coming {
+    margin:auto;
+    font-size:30px;
+    font-family:Arial;
+   
+}
