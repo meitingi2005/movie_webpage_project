@@ -40,7 +40,7 @@ body {
 
 #coming {
     margin:auto;
-    font-size:30px;
+    font-size:40px;
     font-family:Arial;
    
 }
@@ -66,6 +66,7 @@ input {
     text-decoration: none;
     margin: 20px;
     height: 50px;
+   
 }
 
 
