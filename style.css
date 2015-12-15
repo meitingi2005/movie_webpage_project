@@ -90,6 +90,8 @@ a{
   background-color: white;
   height: 50px;
   width: 280px;
+border-style: double;
+color:red;
 }
 .fixed {
   position:fixed;
