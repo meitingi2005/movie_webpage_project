@@ -30,10 +30,12 @@ body {
 
 #img1 {
     float:left;
+      margin:auto;
 }
 
 #img2 {
  float:right;
+   margin:auto;
 }
     
 
@@ -73,8 +75,10 @@ input {
 #warning1{
 
     float:left;
+    margin:auto;
 }
 
 #warning2{
     float:right;
+      margin:auto;
 }
