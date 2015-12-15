@@ -28,14 +28,14 @@ body {
     
 }
 
-img {
+#img1 {
     float:left;
 }
 
-/*.img2 {*/
-/*    float:right;*/
+#img2 {
+ float:right;
+}
     
-/*}*/
 
 
 #coming {
@@ -69,4 +69,11 @@ input {
 }
 
 
+#warning1{
 
+    float:left;
+}
+
+#warning2{
+    float:right;
+}
