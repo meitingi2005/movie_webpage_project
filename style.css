@@ -82,3 +82,17 @@ input {
     float:right;
       margin:auto;
 }
+
+a{
+    font-size:20px;
+}
+.white{
+  background-color: white;
+  height: 50px;
+  width: 280px;
+}
+.fixed {
+  position:fixed;
+  bottom: 0px;
+  right: 0px;
+}
