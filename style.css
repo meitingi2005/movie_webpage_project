@@ -1,7 +1,36 @@
 h1 {
     font-family: 'Bree Serif', serif;
     text-align:center;
+    margin:auto;
     font-size:50px;
+    border-radius: 25px;
+    border: 2px solid pink;
+    padding: 20px; 
+    width: 500px;
+    height: 80px; 
+    background-color:white;
+    animation: one 5s linear 0s infinite alternate;
+    -webkit-animation: one 5s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes one
+{
+    0%   {left:0px; top:0px;}
+    20%  { left:200px; top:0px;}
+    40%  {left:100px; top:0px;}
+    60%  { left:0px; top:0px;}
+    80% { right:100px; top:0px;}
+    80% { right:200px; top:0px;}
+}
+
+@keyframes one
+{
+    0%   {left:0px; top:0px;}
+    20%  { left:200px; top:0px;}
+    40%  {left:100px; top:0px;}
+    60%  { left:0px; top:0px;}
+    80% { right:100px; top:0px;}
+    80% { right:200px; top:0px;}
 }
 
 
