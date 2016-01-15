@@ -26,6 +26,10 @@ body {
     border: 3px solid blue;
     margin:auto;
     font-size:25px;
+    text-shadow: 2px 2px 5px red;
+    -webkit-text-shadow: 2px 2px 5px red;
+    background: radial-gradient(circle, white , gray , blue );
+    -webkit-background: radial-gradient(circle, white , gray , #99ccff );
 }
 
 #img1 {
@@ -98,3 +102,4 @@ color:red;
   bottom: 0px;
   right: 0px;
 }
+
