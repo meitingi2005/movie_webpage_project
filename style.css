@@ -10,10 +10,15 @@ h1 {
     height: 80px; 
     position:relative;
     background-color:white;
-    animation: one 3s linear 0s 1 alternate;
-    -webkit-animation: one 5s linear 0s 1 alternate;
+    transition: width 2s, height 2s, transform 2s;
+   
 }
 
+h1:hover {
+    width:600;
+    height:90;
+    transform: scale(1,1.5);
+}
 
 
 
@@ -42,6 +47,8 @@ body {
     background: radial-gradient(circle, white , gray , blue );
     -webkit-background: radial-gradient(circle, white , gray , #99ccff );
 }
+
+
 
 #img1 {
     float:left;
@@ -115,9 +122,16 @@ input {
     text-decoration: none;
     margin: 20px;
     height: 50px;
+     transition: width 2s, height 2s, transform 2s;
    
 }
 
+
+.blue-button:hover {
+    width:600;
+    height:90;
+    transform: scale(1.5,1.5);
+}
 
 #warning1{
 
