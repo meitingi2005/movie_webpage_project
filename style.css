@@ -8,30 +8,12 @@ h1 {
     padding: 20px; 
     width: 500px;
     height: 80px; 
+    position:relative;
     background-color:white;
-    animation: one 5s linear 0s infinite alternate;
-    -webkit-animation: one 5s linear 0s infinite alternate;
+    animation: one 3s linear 0s 1 alternate;
+    -webkit-animation: one 5s linear 0s 1 alternate;
 }
 
-@-webkit-keyframes one
-{
-    0%   {left:0px; top:0px;}
-    20%  { left:200px; top:0px;}
-    40%  {left:100px; top:0px;}
-    60%  { left:0px; top:0px;}
-    80% { right:100px; top:0px;}
-    80% { right:200px; top:0px;}
-}
-
-@keyframes one
-{
-    0%   {left:0px; top:0px;}
-    20%  { left:200px; top:0px;}
-    40%  {left:100px; top:0px;}
-    60%  { left:0px; top:0px;}
-    80% { right:100px; top:0px;}
-    80% { right:200px; top:0px;}
-}
 
 
 
@@ -60,14 +42,46 @@ body {
 #img1 {
     float:left;
       margin:auto;
+      animation: img1 3s linear 0s infinite alternate;
+      -webkit-animation: img1 4s linear 0s infinite alternate;
 }
+
+@keyframes img1 { 
+        from { 
+            transform: rotateY(0deg); 
+        } to { 
+            transform: rotateY(360deg); 
+        }
+    }
+   -webkit- @keyframes img1 { 
+        from { 
+            transform: rotateY(0deg); 
+        } to { 
+            transform: rotateY(360deg); 
+        }
+    }
 
 #img2 {
  float:right;
    margin:auto;
+    animation: img2 4s linear 0s infinite alternate;
+      -webkit-animation: img2 4s linear 0s infinite alternate;
 }
     
-
+@keyframes img2 { 
+        from { 
+            transform: rotateY(0deg); 
+        } to { 
+            transform: rotateY(360deg); 
+        }
+    }
+   -webkit- @keyframes img2 { 
+        from { 
+            transform: rotateY(0deg); 
+        } to { 
+            transform: rotateY(360deg); 
+        }
+    }
 
 #coming {
     margin:auto;
@@ -106,6 +120,8 @@ input {
     float:left;
     margin:auto;
 }
+
+
 
 #warning2{
     float:right;
