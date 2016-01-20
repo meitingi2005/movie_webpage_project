@@ -151,13 +151,28 @@ input {
 a{
     font-size:20px;
 }
+
+a:active {
+    color:yellow;
+}
+
+
 .white{
   background-color: white;
   height: 50px;
   width: 280px;
 border-style: double;
 color:red;
+transition-property:background;
+transition-duration: .5s;
+-webkit-transition-property:background;
+-webkit-transition-duration: .5s;
 }
+
+.white:hover {
+   background-color:red;
+}
+
 .fixed {
   position:fixed;
   bottom: 0px;
