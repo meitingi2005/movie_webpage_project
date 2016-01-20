@@ -172,7 +172,7 @@ transition-duration: .5s;
 }
 
 .white:hover {
-   background-color:red;
+   background-color:red; 
 }
 
 .fixed {
