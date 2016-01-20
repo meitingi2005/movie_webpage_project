@@ -10,16 +10,13 @@ h1 {
     height: 80px; 
     position:relative;
     background-color:white;
-    transition: width 2s, height 2s, transform 2s;
-   
+    animation:one 7s 1;
 }
 
-h1:hover {
-    width:600;
-    height:90;
-    transform: scale(1,1.5);
+@keyframes one {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
 }
-
 
 
 h2 {
@@ -100,12 +97,12 @@ body {
     margin:auto;
     font-size:40px;
     font-family:Arial;
-   
+     color:blue;
 }
 
 .form {
     font-family:'oswald';
-    
+    color:white;
 }
 
 input {
@@ -136,12 +133,17 @@ input {
 }
 
 #warning1{
-
     float:left;
     margin:auto;
+    animation:shake 1s linear 0s infinite alternate;
 }
 
-
+}
+@keyframes shake{
+0% { -webkit-transform: scale(1); }
+	50% { -webkit-transform: scale(0.9); }
+	100% { -webkit-transform: scale(1); }
+}
 
 #warning2{
     float:right;
