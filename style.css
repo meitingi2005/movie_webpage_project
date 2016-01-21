@@ -5,12 +5,12 @@ h1 {
     font-size:50px;
     border-radius: 25px;
     border: 2px solid pink;
-    padding: 20px; 
+    padding: 20px;  
     width: 500px;
     height: 80px; 
     position:relative;
     background-color:white;
-    animation:one 7s 1;
+    animation:one 10s 1;
 }
 
 @keyframes one {
@@ -148,7 +148,10 @@ input {
 #warning2{
     float:right;
       margin:auto;
+      animation:shake 1s linear 0s infinite alternate;
 }
+
+
 
 a{
     font-size:20px;
