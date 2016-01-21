@@ -7,10 +7,11 @@ h1 {
     border: 2px solid pink;
     padding: 20px;  
     width: 500px;
-    height: 80px; 
+    height: 100px; 
     position:relative;
     background-color:white;
     animation:one 10s 1;
+    
 }
 
 @keyframes one {
