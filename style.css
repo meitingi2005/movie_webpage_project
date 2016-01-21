@@ -103,11 +103,12 @@ body {
 .form {
     font-family:'oswald';
     color:white;
+    font-size:19px;
 }
 
 input {
     position:relative;
-    left:160px;
+    left:190px;
     bottom:20px;
 }
 
@@ -183,4 +184,3 @@ transition-duration: .5s;
   bottom: 0px;
   right: 0px;
 }
-
